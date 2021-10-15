@@ -1,5 +1,6 @@
 #include <iostream>
+#include "utility/assert.hpp"
 
 int main() {
-    std::cout << "Test" << std::endl;
+    ASSERT(false);
 }
